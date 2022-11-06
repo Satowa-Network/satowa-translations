@@ -1,15 +1,25 @@
 <?php
 ////////////////////////////////////////////////////
 //  Copyright by: Satowa Network                  //
-//  Author: Kirihito                              //
-//  Discord: https://discord.satowa-network.at    //
-//  Email: support@satowa-network.at              //
-//  Website: https://satowa-network.at            //
+//  Author: Slush                                 //
+//  Discord: https://discord.satowa-network.eu    //
+//  Email: support@satowa-network.eu              //
+//  Website: https://satowa-network.eu            //
 ////////////////////////////////////////////////////
 
 namespace satowa_network\translation;
 
 class translations
 {
+    public static function getTranslation($lang)
+    {
+        if($lang == "de") {
+        return array(
+            "login" => "Anmelden",
+            "logout" => "Abmelden"
+            );
+        } elseif($lang == "en") {
 
+        }
+    }
 }
